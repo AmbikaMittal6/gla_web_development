@@ -23,6 +23,7 @@
 
 //To understand above behavior, we need to understand two type of increment/decrement operator:
 //1. post increment/decrement -> after variable name you can use this operator(++/--)
+phele value bdayega phir use krega
 var number = 20
 number++ //post increment 
 number-- //post decrement
@@ -36,7 +37,8 @@ console.log(age) //45
 
 //Note: post increment/decrement operator increases/descreses its value by 1 after current operation execution.
 
-//2. pre increment/decrement -> we use before variable name
+//2. pre increment/decrement -> we use before variable 
+phele use krega phir bdayega
 ++number //pre increment
 --number //pre decrement
 
